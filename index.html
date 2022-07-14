@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://yt3.ggpht.com/ytc/AKedOLSO5rKH62DXsXjlKpEbUtZ-D8CuCxWvQOORixydtQ=s900-c-k-c0x00ffffff-no-rj" type="image/x-icon">
+    <title>Trang chủ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+<!--HEADER-->
+<div class="header">
+    <!--Topbar -->
+    <div class="header__topbar">
+            <ul class="header__topbar-list">
+                <li class="header__topbar-item">
+                    <a href="product.html" class="header__topbar-link">
+                        <i class="fas fa-phone-square-alt"></i>
+                        HOTLINE:
+                    </a>
+                </li>
+                <li class="header__topbar-item">
+                    <a href="product.html" class="header__topbar-link">
+                        0902.678.910
+                    </a>
+                </li>
+            </ul>
+            <ul class="header__topbar-list">
+                <li class="header__topbar-item">
+                    <label for="input_cart"  class="header__topbar-link cart_icon">
+                        <strong><span class="totalSum">0</span> VNĐ</strong>
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="numbers_product">0</span>
+                    </label>
+                    <input type="checkbox" name="" id="input_cart">
+    <div class="card_cart">
+        <div class="card_cart__header">
+            <h1>GIỎ HÀNG</h1>
+            <label for="input_cart" >ĐÓNG</label>
+        </div>
+        <div class="showCart">
+            <div class="product">
+
+            </div>
+        </div>
+        <div class="sumContainer">
+            <h4>Tổng cộng:</h4><p><span class="sumTotal" id="total-money">0 </span>vnđ</p>
+        </div>
+        <a href="cart.html"><button class="goPageCart">XEM GIỎ HÀNG</button></a>
+    </div>
+                </li>
+                <li class="header__topbar-item search_icon">
+                    <a class="header__topbar-link">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>    
+        </div>
+    <!--Navbar-->
+    <div class="header__navbar">
+        <ul class="header__navbar-list">
+            <li id="top100"><p>TOP 100</p>
+                <div class="navbar__top100">
+                        <ul class="navbar__top100-list">
+                            <li class="navbar__top100-item">
+                                <a href="product.html" class="navbar__top100-link">CASIO HOT</a></li>
+                            <li class="navbar__top100-item">
+                                <a href="product.html" class="navbar__top100-link">OLYM PIANUS HOT</a></li>
+                            <li class="navbar__top100-item">
+                                <a href="product.html" class="navbar__top100-link">SEIKO HOT</a></li>
+                            <li class="navbar__top100-item">
+                                <a href="product.html" class="navbar__top100-link">ORIENT HOT</a></li>
+                            <li class="navbar__top100-item">
+                                <a href="product.html" class="navbar__top100-link">CITIZEN HOT</a></li>
+                            <li class="navbar__top100-item">
+                                <a href="product.html" class="navbar__top100-link">DANIEL WELLINGTON<br>HOT</a></li>
+                            <li class="navbar__top100-item">
+                                <a href="product.html" class="navbar__top100-link">TISSOT  HOT</a></li>
+                            <li class="navbar__top100-item">
+                                <a href="product.html" class="navbar__top100-link">MVMT  HOT</a></li>
+                        </ul>
+                </div>
+            </li>
+            <li id="thuonghieu"><p>THƯƠNG HIỆU</p>
+                    <div class="navbar__thuonghieu">
+                        <div class="navbar__thuonghieu-list">
+                            <ul >
+                                <li class="navbar__thuonghieu-item"><strong>CÁC HÃNG BÁN CHẠY</strong></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Casio</a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Casio Edifice</a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Casio G-Shock</a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ OP Chính hãng </a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Olym pianus</a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Orient</a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Citizen</a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Citizen C7</a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Seiko</a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ MTP LTP</a></li>
+                                <li class="navbar__thuonghieu-item">
+                                    <a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Citizen Eco-Drive</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar__thuonghieu-list">
+                            <ul >
+                                <li class="navbar__thuonghieu-item"><strong>ĐỒNG HỒ THỜI TRANG</strong></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Daniel Wellington (DW)</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Pierre Lannier</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ MVMT</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Fossil</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Kenneth Cole</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Julius</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Skagen</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Casio Baby-G</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Casio Sheen</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Dây da ZRC</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar__thuonghieu-list">
+                            <ul >
+                                <li class="navbar__thuonghieu-item"><strong>ĐỒNG HỒ THỤY SĨ</strong></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Tissot</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Calvin Klein (CK) </a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Olympia Star</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Ogival </a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Bentley</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Louis Erard</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Cover</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Victorinox</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Xem Thêm Đồng Hồ Thụy Sĩ</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar__thuonghieu-list">
+                            <ul >
+                                <li class="navbar__thuonghieu-item"><strong>ĐỒNG HỒ KHUYẾN MÃI</strong></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Candino Sale</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Rhythm Sale</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Sunrire Sale</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Alexandre Christie (AC) Sale</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Elle Sale</a></li>
+                                <li class="navbar__thuonghieu-item"><strong>XEM THÊM KHUYẾN MÃI</strong></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Chính Hãng Sale 30%</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Chính Hãng Sale 40%</a></li>
+                                <li class="navbar__thuonghieu-item"><a href="product.html" class="navbar__thuonghieu-link">Đồng hồ Chính Hãng Sale 50%</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+            </li>
+            <li><p>NAM</p></li>
+            <li><p>NỮ</p></li>
+        </ul>
+        <div  class="header__navbar-logo">
+            <a href="product.html" class="header__navbar-link">
+                <img src="img/logo-shopdongho.png">
+            </a>
+        </div>
+        <ul class="header__navbar-list">
+            <li><p>ĐÔI</p></li>
+            <li><p>TREO TƯỜNG</p></li>
+            <li><p>SỬA CHỮA</p></li>
+            <li><p>LIÊN HỆ</p></li>
+        </ul>    
+    </div>
+</div>
+    <!--MAIN-->
+    <div class="main">
+        <div class="main__banner">
+            <img src="img/banner.jpg" alt="banner">
+        </div>
+        <div class="main__intro">
+            <div class="intro__title">
+                <h1>ĐỒNG HỒ CHÍNH HÃNG CAO CẤP</h1>
+                <p>Chúng tôi cam kết mang lại những giá trị cao nhất, chế độ hậu mãi tốt nhất & đồng hồ chính hãng cho khách hàng khi đến với SHOPDONGHO.com</p>
+            </div>
+            <div class="intro__list">
+                <div class="intro__list-item">
+                    <img src="img/icon-intro/icon-chat-luong.png">
+                    <p>BẢO HÀNH MÁY VÀ PIN 5 NĂM</p>
+                </div>
+                <div class="intro__list-item">
+                    <img src="img/icon-intro/icon-khuyen-mai.png">
+                    <p>GIẢM ĐẾN 50% GIÁ CHÍNH HÃNG</p>
+                </div>
+                <div class="intro__list-item">
+                    <img src="img/icon-intro/icon-van-chuyen.png">
+                    <p>CHUYỂN HÀNG COD MIỄN PHÍ TOÀN QUỐC</p>
+                </div><div class="intro__list-item">
+                    <img src="img/icon-intro/icon-uy-tinh.png">
+                    <p>CHẾ ĐỘ 1 ĐỔI 1 TRONG 7 NGÀY ĐẦU</p>
+                </div>
+                <div class="intro__list-item">
+                    <img src="img/icon-intro/icon-qua-tang.png">
+                    <p>TẶNG KHĂN LAU ĐỒNG HỒ CAO CẤP</p>
+                </div>
+                <div class="intro__list-item">
+                    <img src="img/icon-intro/icon-tiet-kiem.png">
+                    <p>THAY DÂY DA GIẢM GIÁ 50%</p>
+                </div>
+            </div>
+        </div>
+        <div  class="more_product">
+            <div class="more_product_title">
+                <h2>ĐỒNG HỒ BÁN CHẠY NHẤT</h2>
+            </div>
+            <div class="more_product_products">
+                <div class="more_product_item">
+                    <a href="product_1.html">
+                        <img class="img-item" src="img/img1/1.jpg">
+                        <p class="name-item">Casio MTP-1374L-7AVDF Nam Quartz</p>
+                    </a>
+                    <p><span class="cost">2.000.000</span><span class="vnd">VNĐ</span><span class="sale">1.990.000</span><span class="vnd">VNĐ</span></p>
+                    <button class="addToCart" >Thêm vào giỏ hàng</button>
+                </div>
+                <div class="more_product_item">
+                    <a href="product_2.html">
+                        <img class="img-item" src="img/img2/1.jpg">
+                        <p class="name-item">Casio AE-1200WHD-1AVDF Nam Quartz</p>
+                    </a>
+                    <p><span class="cost">1.826.000</span><span class="vnd">VNĐ</span><span class="sale">1.308.000</span><span class="vnd">VNĐ</span></p>
+                    <button class="addToCart" >Thêm vào giỏ hàng</button>
+                </div>
+                <div class="more_product_item">
+                    <a href="product_3.html">
+                        <img class="img-item" src="img/img3/1.jpg">
+                        <p class="name-item">Casio MTP-1374L-1AVDF Nam Quartz</p>
+                    </a>
+                    <p><span class="cost">2.000.000</span><span class="vnd">VNĐ</span><span class="sale">1.999.000</span><span class="vnd">VNĐ</span></p>
+                    <button class="addToCart" >Thêm vào giỏ hàng</button>
+                </div>
+                <div class="more_product_item">
+                    <a href="product_4.html">
+                        <img class="img-item" src="img/img4/1.jpg">
+                        <p class="name-item">Casio B640WC-5ADF Nữ Quartz</p>
+                    </a>
+                    <p><span class="cost">1.826.000</span><span class="vnd">VNĐ</span><span class="sale">1.552.000</span><span class="vnd">VNĐ</span></p>
+                    <button class="addToCart" >Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+            <div class="more_product_view">
+                <a href="product.html">XEM TẤT CẢ</a>
+            </div>
+        </div>
+        <div class="main__img_link">
+            <div class="img_link__container">
+                <div class="container__big_img container__big_img--men">
+                    <p class="bigsize__item-title bigsize__item-title--men">ĐỒNG HỒ NAM</p>
+                    <a href="product.html">SHOP NOW</a>
+                </div>
+                <div class="container__sml_img container__sml_img--men">
+                    <a href="product.html" class="sml_img__item">
+                        <img src="img/img-link/sml-size/dong-ho-hot-1.jpg">
+                    </a>
+                    <a href="product.html"class="sml_img__item">
+                        <img src="img/img-link/sml-size/dong-ho-co-1.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="img_link__container">
+                <div class="container__big_img container__big_img--women">
+                    <p class="bigsize__item-title bigsize__item-title--women">ĐỒNG HỒ NỮ</p>
+                    <a href="product.html">SHOP NOW</a>
+                </div>
+                <div class="container__sml_img container__sml_img--women">
+                    <a href="product.html" class="sml_img__item">
+                        <img src="img/img-link/sml-size/dong-ho-pin.jpg">
+                    </a>
+                    <a href="product.html"class="sml_img__item">
+                        <img src="img/img-link/sml-size/dong-ho-doi.jpg">
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="main__branch">
+            <h2 class="title">THƯƠNG HIỆU ĐỒNG HỒ </h2>
+            <div class="list_branch">
+                <a href="product.html"><img src="img/branch/dong-ho-casio-1.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-ediffice.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-g-stock.png"></a>
+                <a href="product.html"><img src="img/branch/logo-dong-ho-olym-pianus.png"></a>
+                <a href="product.html"><img src="img/branch/logo-dong-ho-olympia-star-1.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-orient-1.png"></a>
+            </div>
+            <div class="list_branch">
+                <a href="product.html"><img src="img/branch/logo-citizen-9.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-seiko.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-casio-mtp.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-casio-ltp.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-citizen.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-tisot.png"></a>
+            </div>
+            <div class="list_branch">
+                <a href="product.html"><img src="img/branch/dong-ho-daniel-wellington.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-mvmt.png"></a>
+                <a href="product.html"><img src="img/branch/logo-dong-ho-skagen.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-fossil.png"></a>
+                <a href="product.html"><img src="img/branch/kenneth-cole-banner.png"></a>
+                <a href="product.html"><img src="img/branch/logo-thuong-hieu-dong-ho-julius-1.png"></a>
+            </div>
+            <div class="list_branch">
+                <a href="product.html"><img src="img/branch/dong-ho-ck-1-1.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-ogival.png"></a>
+                <a href="product.html"><img src="img/branch/day-da-zrc.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-sheen.png"></a>
+                <a href="product.html"><img src="img/branch/dong-ho-baby-g.png"></a>
+                <a href="product.html"><img src="img/branch/logo-dogn-ho-seiki-treo-tuong-1.png"></a>
+            </div>
+            <div class="list_branch">
+                <a href="product.html"><img src="img/branch/de-ban-karlsson.png"></a>
+                <a href="product.html"><img src="img/branch/logo-dong-ho-pierrelannier.png"></a>
+            </div>
+            <div class="main__category">
+                <div class="category__list">
+                    <a href="product.html">ORIENT BAMBINO</a>
+                    <a href="product.html">ĐIỆN TỬ CASIO</a>
+                    <a href="product.html">PIN 10 NĂM</a>
+                    <a href="product.html">VÀNG HỒNG</a>
+                    <a href="product.html">CƠ LỘ MÁY</a>
+                    <a href="product.html">SEIKO 5</a>
+                </div>
+                <div class="category__list">
+                    <a href="product.html">ORIENT SUN MOON</a>
+                    <a href="product.html">THỢ LẶN</a>
+                    <a href="product.html">DÂY LƯỚI</a>
+                    <a href="product.html">QUÂN ĐỘI</a>
+                    <a href="product.html">QUÀ TẶNG 20/10</a>
+                    <a href="product.html">SALE</a>
+                </div>
+            </div>
+        </div>
+        <div class="main__mews">
+            <h2 class="title title--news">TIN TỨC</h2>
+            <div class="news__group">
+                <div class="news__item">
+                    <div class="news__item__img">
+                        <img src="img/img-new/PRINT_4EMECOUV_CMJN_300dpi_PAD_1.jpg">
+                    </div>
+                    <h3><a href="https://shopdongho.com/8-thuong-hieu-dong-ho-noi-tieng-tam-trung-cho-tin-do-suu-tap-hang-hieu/">8 THƯƠNG HIỆU ĐỒNG HỒ NỔI TIẾNG TÂM TRUNG CHO TÍN ĐỒ SƯU TẬP HÀNG HIỆU</a></h3>
+                </div>
+                <div class="news__item">
+                    <div class="news__item__img">
+                        <img src="img/img-new/Untitled-1.png">
+                    </div>
+                    <h3><a href="https://shopdongho.com/dong-ho-pl-la-cua-nuoc-nao-xuat-xu-dong-ho-pierre-lannier-cap-nhat-moi-nhat/">ĐỒNG HỒ PIERRE LANNIER LÀ CỦA NƯỚC NÀO? XUẤT XỨ ĐỒNG HỒ PIERRE LANNIER? (Cập nhật mới nhất)</a></h3>
+                </div>
+                <div class="news__item">
+                    <div class="news__item__img">
+                        <img src="img/img-new/cover-27.png">
+                    </div>
+                    <h3><a href="https://shopdongho.com/hoa-tiet-dong-ho-guilloche-mot-tuong-dai-nghe-thuat/">HỌA TIẾT ĐỒNG HỒ GUILLOCHE: MỘT TƯỢNG ĐÀI NGHỆ THUẬT</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_bar">
+            <div class="footer_bar__item">
+                <a href="https://www.facebook.com/shopdongho2004/" style="color:white;"><i class="fab fa-facebook-f"></i></a><p>FACEBOOK</p>
+            </div>
+            <div class="footer_bar__item">
+                <a href="https://www.youtube.com/c/ShopDongHocomchannel" style="color:white;"><i class="fab fa-youtube"></i></a><p>YOUTUBE</p>
+            </div>
+            <div class="footer_bar__item">
+                <a href="https://www.instagram.com/shopdongho_com/" style="color:white;"></a><i class="fab fa-instagram"></i></a><p>INSTAGRAM</p>
+            </div>
+        </div>
+        <div class="footer__colunm row">
+            <div class="footer_colunm--1 col-md-3 col-ms-6">
+                <div class="footer-widget widget_text">
+                    <h5>SHOWROOM 1</h5>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-location-arrow"></i><a> 241 Phan Xích Long, Phường 7, Quận Phú Nhuận, TP HCM (đối diện Karaoke Nnice)</a><br>
+                            <i class="fa fa-mobile"></i> 0902.678.910<br>
+                            <i class="fa fa-clock"></i> Thời gian mở cửa: 8h30 – 21h30
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-widget widget_text">
+                    <h5>SHOWROOM 2</h5>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-location-arrow"></i><a> 276 Nguyễn Văn Luông, Phường 12, Quận 6, TP. Hồ Chí Minh (đối diện ngân hàng Phương Đông, công ty may Thuận Phương)</a><br>
+                            <i class="fa fa-mobile"></i> 0902.678.910<br>
+                            <i class="fa fa-clock"></i> Thời gian mở cửa: 8h30 – 21h30
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-widget widget_text">
+                    <h5>SHOWROOM 3</h5>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-location-arrow"></i><a>  479 Đường Quang Trung, Phường 10, Quận Gò Vấp, TP. Hồ Chí Minh</a><br>
+                            <i class="fa fa-mobile"></i> 0902.678.910<br>
+                            <i class="fa fa-clock"></i> Thời gian mở cửa: 8h30 – 21h30
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_colunm--2 col-md-3 col-ms-6">
+                <div class="footer-widget widget_text">
+                    <h5>SHOWROOM 4</h5>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-location-arrow"></i><a>  185 Khánh Hội, Phường 3, Quận 4, TP HCM (kế bên Bibomart)</a><br>
+                            <i class="fa fa-mobile"></i> 0902.678.910<br>
+                            <i class="fa fa-clock"></i> Thời gian mở cửa: 8h30 – 21h30
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-widget widget_text">
+                    <h5>SHOWROOM 5</h5>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-location-arrow"></i><a> 404-406 đường Cộng Hoà, phường 13, quận Tân Bình, TP HCM</a><br>
+                            <i class="fa fa-mobile"></i> 0902.678.910<br>
+                            <i class="fa fa-clock"></i> Thời gian mở cửa: 8h30 – 21h30
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-widget widget_text">
+                    <h5>SHOWROOM 6</h5>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-location-arrow"></i><a>  156 Nguyễn Ảnh Thủ, Ấp Trung Chánh 2, Xã Trung Chánh, Huyện Hóc Môn (cách ngã tư Trung Chánh 50m, đối diện Thế Giới Di Động)</a><br>
+                            <i class="fa fa-mobile"></i> 0933.612.615<br>
+                            <i class="fa fa-clock"></i> Thời gian mở cửa: 8h30 – 21h30
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_colunm--3 col-md-3 col-ms-6">
+                <div class="footer-widget widget_text">
+                    <h5>SHOWROOM 7</h5>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-location-arrow"></i><a> 514 Lê Duẩn, khu Phước Thuận, huyện Long Thành, tỉnh Đồng Nai</a><br>
+                            <i class="fa fa-mobile"></i> 0901.552.045<br>
+                            <i class="fa fa-clock"></i> Thời gian mở cửa: 8h30 – 21h30
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-widget widget_text">
+                    <h5>SHOWROOM 8</h5>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-location-arrow"></i><a>  90 Yersin, P. Hiệp Thành, TP. Thủ Dầu Một (đối diện YAMAHA Hưng Long Phát)</a><br>
+                            <i class="fa fa-mobile"></i> 0906.320.399<br>
+                            <i class="fa fa-clock"></i> Thời gian mở cửa: 8h30 – 21h30
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_colunm--4 col-md-3 col-ms-6">
+                <div class="footer-widget widget_text">
+                    <h5 align="center">VỀ CHÚNG TÔI</h5>
+                    <div class="textwidget">
+                        <ul class="menu">
+                            <li><a href="index.html"><img src="img/logo-shopdongho.png" width="100%"></a></li>
+                            <li>Shop đồng hồ chính hãng</li>
+                            <li>HOTLINE : 0902.678.910</li>
+                            <li>Về chúng tôi (About Us)</li>
+                            <li>Tuyển dụng</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-widget widget_text">
+                    <h5 align="center">HỖ TRỢ KHÁCH HÀNG</h5>
+                    <div class="textwidget">
+                        <ul class="menu">
+                            <li><a href="index.html">Hướng dẫn mua hàng</a></li>
+                            <li><a href="index.html">Phương thức thanh toán</a></li>
+                            <li><a href="index.html">Phương thức vận chuyển</a></li>
+                            <li><a href="index.html">Chính sách trả góp</a></li>
+                            <li><a href="index.html">Chính sách bảo hành</a></li>
+                            <li><a href="index.html">Chính sách đổi đồng hồ</a></li>
+                            <li><a href="index.html">Chính sách bảo mật thông tin</a></li>
+                            <li><a href="index.html">Tin tức & bài viết hay về đồng hồ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-widget widget_text">
+                    <h5 align="center">CHỨNG NHẬN</h5>
+                    <div class="textwidget">
+                        <ul class="menu">
+                            <li><img src="https://cdn.shopdongho.com/2018/09/dathongbao.png" width="70%"></li>
+                            <li><img src="https://cdn.shopdongho.com/2019/10/noi-khong-voi-hang-gia.png" width="70%"></li>
+                            <li><img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=5184fdb6-9baf-4664-b811-a9b6a9515108" width="40%"></li>
+                            <li>
+                                <i class="fab fa-youtube" style="margin:5px;padding: 0px; font-size: 20px;"></i>
+                                <i class="fab fa-twitter" style="margin:5px; padding: 0px; font-size: 20px;"></i>
+                                <i class="fab fa-facebook-f" style="margin:5px ;padding: 0px; font-size: 20px;"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">© 2021 <a href="index.html">Shop đồng hồ chính hãng</a></div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
